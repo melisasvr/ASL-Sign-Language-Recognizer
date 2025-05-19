@@ -1,0 +1,44 @@
+# Python compiled files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Dataset and images (to protect privacy)
+asl_dataset/
+inference_debug/
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Model and scaler files
+asl_model.pth
+scaler_mean.npy
+scaler_scale.npy
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System and temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# Jupyter notebooks (if used)
+*.ipynb
+*.ipynb_checkpoints/
+
+# Environment and dependency lock files
+Pipfile
+Pipfile.lock
